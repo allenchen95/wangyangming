@@ -1,0 +1,350 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*内容盒子*/
+.linebox1{
+	width:1200px;  
+	margin:0 auto;
+}
+/*顶部*/
+.header{ 
+		border-bottom: solid 1px #eee;
+		background:#fff;
+}
+.headerbox{
+	width:1200px;
+	height: 80px;
+	position:relative;
+	margin:0 auto;
+}
+.logo{
+	position: absolute; 
+	top: 50%;
+    transform: translateY(-50%);
+}
+.topnav{
+	margin-left: 310px;
+	position: absolute; 
+	top: 50%;
+    transform: translateY(-50%);
+}
+.topnav li{ 
+	float: left;
+	 text-align: center;
+}
+.topnav li a{ 
+	font-size: 16px;
+	font-family: "微软雅黑"; color: #333; 
+	line-height: 28px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+.topnav li a:hover{
+	color: #c3946a;
+}
+.topnav li:hover ul{
+	display: block;
+}
+.subnav{
+	border-radius: 2px;
+	position:absolute;
+	background-color:#fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: none;
+}
+.subnav li{	
+	clear: both;
+}
+.subnav li:hover ul{
+		display: block;
+}
+.subnav li a{	
+ color:#777;
+font-size: 14px;
+line-height: 30px;
+}
+/*搜索框*/
+.back{	
+	position: absolute; 
+	top: 50%;
+    transform: translateY(-50%);
+	right: 0;
+}
+#search input[type="text"] { 
+		background: url(http://www.mqjj.com/templets/spy/images/ss.png) no-repeat 10px 10px #fcfcfc; 
+		border: 1px solid #e0e0e0;
+		width:60px;
+		padding: 8px 8px 10px 35px; 
+		border-radius: 2px; 	
+		transition: all 0.5s ease 0s; 
+	} 	
+#search input[type="text"]:focus { 
+		background: url(http://www.mqjj.com/templets/spy/images/ss.png) no-repeat 10px 10px #fcfcfc;
+		width: 160px; 
+	}
+
+/*焦点图*/
+.banner{
+	position: relative;
+	width: 100%;
+	height: 240px;
+	margin: 20px 0 20px 0;	
+	z-index: -1;
+}
+/*历史浙商*/
+.tit{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.subtit{
+	height: 22px;
+	border-left:solid 4px #c3946a; 
+	padding-left: 12px;
+	margin-bottom: 10px;
+}
+.subtit span{
+	position: relative;
+	display: inline-block; 
+}
+.content_left{
+	width: 360px;
+	height: 420px;
+	float: left;
+	background: #fff;
+	padding:20px 15px 20px 15px;
+	margin-right: 15px;
+	position: relative;
+}
+.content_center{
+	width: 410px;
+	height: 420px;
+	float: left;
+	margin-right:15px;
+	background: #fff;
+	padding:20px 15px 20px 15px;
+	margin-right: 15px;
+}
+.content_right{
+	height: 420px;
+	width: 310px;
+	float: left;
+	background: #fff;
+	padding:20px 15px 20px 15px;
+}
+.thdtit{
+	font-size: 16px;
+	line-height: 32px;
+	color: #333;
+}
+.content_word{
+	font-size: 14px;	
+	line-height: 26px;
+	color: #777;
+}
+.content_word:hover{
+	color: #c3946a;
+}
+/*千年商脉时间轴*/
+
+.timeline_word_left{
+	text-align: right;
+
+}
+.more{
+ 	font-size: 12px;
+	color: #c3946a;
+	display: block;
+}
+#timeline_box{
+	width: 360px;
+	height: 336px;
+}
+#timeline_box ul li{
+	height: 70px;
+	padding: 21px 0 21px 0;
+}
+#timeline_left{
+	float: left;
+	margin-left:20px;
+	margin-right:15px;
+}
+#timeline_center{
+	float: left;
+}
+#timeline_right{
+	float: left; 
+	margin-left:20px;
+	margin-right:15px;  
+}
+#btn_up{
+		display:table;
+		margin: 0 auto;
+		padding-bottom: 15px;
+}
+#btn_down{
+	display:table;
+	margin: 0 auto;
+}
+/*三大商帮*/
+.content_word_sb{
+	font-size: 12px;
+	line-height: 26px;
+	color: #777;
+	height: 130px;
+	margin-bottom: 20px;
+}
+.content_sb_1{
+	width: 126px;
+	margin-right: 15px;
+	float: left;
+}
+
+.content_sb_2{
+	width: 126px;
+		float: left;
+}
+.charalist li {
+	padding-top:13px;
+	padding-bottom: 13px;
+	padding-left: 15px;
+	display: block;
+}
+.charaimg{
+	float: left;
+	display: block;
+}
+.charaimg img{
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	display:block
+}
+.charaword{
+	margin-left: 85px;
+}
+.content_word_sb:hover{
+	color: #c3946a;
+}
+.charalist li:hover{
+	background-color: #fff0e3;
+}
+/*当代浙商*/
+.ddzs_box01{
+	width: 360px;
+	height:215px ;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	background:#fff;
+	padding: 20px 15px 20px 15px;
+	float: left;
+}
+.ddzs_box02{
+	width: 360px;
+	height:215px ;
+	background:#fff;
+	padding: 20px 15px 20px 15px;
+	float: left;
+}
+
+/*浙商文献*/
+.bookbox{  
+	background: #fff;
+	padding: 20px 15px 20px 15px;
+}
+.booklist{
+	width:1221px;
+	float: left;
+	position: relative;
+	overflow: hidden; 
+	padding: 0px;
+	margin: 0px;
+}
+.booklist li{
+	float: left;
+	width: 134px;
+
+}
+.bookpic{
+	height: 140px;
+	width: 100px;
+	overflow: hidden;
+	border: 1px solid #eee;
+}
+/*浙商记录*/
+.vediobox{
+	background: #fff;
+	height: 260px;
+	padding: 20px 15px 20px 15px;
+}
+.vedio{
+	float: left;
+	position: relative;
+	width: 500px;
+	height: 260px;
+	margin-right: 30px;	
+}
+
+#btn_play {
+	position: absolute;
+	right: 50%;
+	top: 50%;
+	margin-top:-60px;
+	margin-right:-60px;
+	opacity: 0.7;
+	transition: all 0.2s ease-out 0s;
+}
+#btn_play:hover{
+	opacity: 1;
+}
+.vediocontent{
+	float: left;
+	position: relative;
+	height: 260px;
+	width: 640px;
+}
+.vediopage li{
+	display: block;
+	width: 90px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	margin-top: 12px;
+	float: left;
+	margin-right: 12px;
+}
+.vediopage li a{
+	color: #333;
+	font-size: 12px;
+}
+.vediopage li a span{
+	display: inline-block;
+	width: 90px;
+	height: 36px;
+	border: 1px solid #eee;
+}
+.vediopage li a span:hover{
+	color: #fff;
+	background: #c3946a;
+	transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	
+}
+#btn_play2 img{
+	position: absolute;
+	bottom: 0;
+	opacity: 1;
+	transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+}
+#btn_play2 img:hover{
+	opacity: 0.8;
+	transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+}
+/*图片hover效果*/
+.link_img img{
+	transition: all 0.3s ease-out 0s;
+}
+.link_img img:hover{
+	opacity: 0.6;
+}
