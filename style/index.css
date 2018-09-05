@@ -145,10 +145,33 @@ line-height: 30px;
 	color: #c3946a;
 }
 /*千年商脉时间轴*/
-
 .timeline_word_left{
 	text-align: right;
 
+}
+.history_line{
+	float: left;
+	height: 136px;
+	width: 7px;
+	display: block;
+	background-image: url(../imgs/img_timeline.png);
+	margin-right: 18px;
+}
+.history_word a{
+	color: #333;
+	line-height: 28px;
+}
+.history_word a:hover{
+	color: #c3946a;
+	line-height: 28px;
+}
+.history_word_box{
+	float: left;
+	margin-left:18px;
+	margin-right:18px;
+	width:140px;
+	text-align:right;
+	;
 }
 .more{
  	font-size: 12px;
