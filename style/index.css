@@ -6,6 +6,9 @@
 	margin:0 auto;
 }
 /*顶部*/
+html{
+	min-width:1200px; ;
+}
 .header{ 
 		border-bottom: solid 1px #eee;
 		background:#fff;
