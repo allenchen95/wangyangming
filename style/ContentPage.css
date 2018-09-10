@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* 图文内容 */
+.contentpage_box{
+    padding-left: 30px;
+	background: #fff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    width: 812px;
+    min-height: 300px;
+	padding: 20px 30px 20px 30px;
+	margin-top: 15px;
+}
+.contentpage_box h1{
+    font-size: 18px;
+    margin-top:20px;
+    padding-left: 10px;
+    border-left: #c3946a 3px solid; 
+}
+.contentpage_title{
+    font-size: 24px;
+    border-bottom: #eee 1px solid;
+}
+.contentpage_content{
+    margin-top: 20px;
+}
+.contentpage_content p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* 书籍内容 */
+.contentpage_imginfo_box{
+    padding: 20px 0 20px 0;
+    border-bottom:1px dashed #eee;
+}
+.contentpage_imginfo_img{
+    width: 130px;
+    height:180px;
+    border-radius: 2px;
+    float: left;
+}
+.contentpage_imginfo_info{
+    width: 600px;
+    float: left;
+    margin-left: 20px;
+}
+.info_name{
+    font-size: 14px;
+    line-height: 28px;
+    color: #999;
+    margin-right: 6px;
+}
+.info_data{
+    font-size: 14px;
+    line-height: 28px;
+    color: #333;
+}
+/* 视频内容 */
+.video_box {
+	width: 750px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+/* 相册内容 */
+.imgshow_box{
+    margin-top:20px;
+}
